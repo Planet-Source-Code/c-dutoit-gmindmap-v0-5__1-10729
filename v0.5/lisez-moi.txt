@@ -1,0 +1,89 @@
+Nom du programme : G-MindMap
+Version          : 0.5
+Crée le          : 1er Août 2000
+Par              : C.Dutoit (dutoitc@hotmail.com)
+Téléchargeable sur:http://www.home.ch/~spaw4758
+
+
+Bugs connus :
+-------------
+à vérifier : suppression d'un noeud ayant des fils
+Impression : - cadres sous les noms !
+	     - proportions respectées ???
+Premier noeud non centré lors de l'ouverture du programme
+
+
+
+Version 0.1 : (1-2 Août 2000)
+-------------
+Création du projet : frmMap, frmMDI, modMap, lisez-moi.txt.
+Création de l'interface
+Création de la structure de donnée
+Création du moteur graphique
+
+
+Version 0.2 : (2-3 Août 2000)
+-------------
+Modification de la structure de donnée
+Ajout de la fonction de recherche de noeud par coordonnée
+Ajout de la possibilité de créer des noeuds-fils
+Ajout de la boîte de dialogue "à propos de..."
+Ajout de modES : gestion des entrées-sorties
+suppression d'un noeud
+Chargement et enregistrement d'un arbre
+impression sommaire
+
+
+Version 0.3 : (3-7 Août 2000)
+-------------
+Ajout de modImpression : Impression d'un mindmap + options d'impression + ...
+Exportation au format texte (pour ré-importation dans MindMapper Plus ou compatible
+Importation de fichier texte
+Ajout de toolbars (2 icônes à ajouter par la suite)
+Ajout de l'aide
+Autre rendu graphique : suppression des O, sauf pour la racine, écriture du texte sur les branches, en penché !
+
+
+Version 0.4 : (7-11 Août 2000)
+-------------
+x derniers ouverts
+possibilité de déplacer les noeuds
+Propriétés d'un noeud dans une fenêtre
+Amélioration de l'impression
+Insertion d'un noeud : affichage de la boîte des propriétés du noeud (frmProperties) pour la création du noeud plutôt que des inputbox
+afficher toutes les positions forcées
+mise à jour de l'aide
+'Mises à jour en ligne'
+
+
+Version 0.5 : (11-16 Août 2000)
+-------------
+Suppression du bug de l'impression (fond de texte solide)
+Déplacement d'un noeud à l'autre au clavier
+Ouverture d'un fichier => nom du fichier dans la barre de titre
+prendre en compte l'annulation d'impression, d'enregistrement
+Nouveau système de coordonnée : origine sur le noeud 0 (racine)
+Enregistrement des coordonnées X et Y (forcées) coordonnés (-1000 -> +1000)
+Amélioration de l'aide
+Début aide contextuelle
+Ajout des icônes de la toolbar + du bouton de l'aide contextuelle
+
+
+TODO :
+------
+Recadrer le texte des premières sous-branches
+Affichage d'un arbre avec les noeuds
+Recentrage à partir d'un noeud
+Tailles paramétrables; 
+Type de Mindmap, tailles : enregistrer le modèle
+Type de mindmap personalisable
+Aide : ajout de 'terminologie' + images
+Gestion des erreurs
+grille magnétique
+ajout d'icônes, lifting, ...
+Styles de texte (pour niveau 1-2-3-...)
+Exportation : Bitmap-jpeg-? ; Html (Javascript) ; xml
+Bug Angle de texte
+Ajout de barre de défilement
+empêcher frmmap de se refermer
+Ajout de la sélection du Noeud par N° (clavier ou menu + fenêtre de propriétés)
