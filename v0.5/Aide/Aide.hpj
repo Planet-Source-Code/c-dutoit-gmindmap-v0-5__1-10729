@@ -1,0 +1,25 @@
+; This file is maintained by HCW. Do not modify this file directly.
+
+[OPTIONS]
+COMPRESS=12 Hall Zeck
+LCID=0x100c 0x0 0x0 ; Français (Suisse)
+REPORT=Yes
+CNT=TableOfContents.cnt
+COPYRIGHT=0.2
+HLP=.\Aide.hlp
+
+[FILES]
+.\aide.rtf
+
+[MAP]
+Aide_Contextuelle_Icones_Enregistrer=102
+Aide_Contextuelle_Icones_Imprimer=103
+Aide_Contextuelle_Icones_InsererFils=105
+Aide_Contextuelle_Icones_Nouveau=100
+Aide_Contextuelle_Icones_Ouvrir=101
+Aide_Contextuelle_Icones_SupprimerFils=106
+Création_Branche=3          ; Création d'une branche
+Edition_Paramètres=1            ; Fenêtre d'édition des paramètres
+Forcer_Position=2         ; Forcer une position
+KEKSEKSA=5          ; Qu'est-ce qu'un Mindmap ?
+Sélection_Branche=4           ; Sélection d'une branche
